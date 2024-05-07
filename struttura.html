@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L-System</title>
+    <link rel="stylesheet" href="./assets/style/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+</head>
+<body>
+
+    <a href="index.html" class="back">back</a> <br>
+    <a href="fonti.html" class="fonti">fonti</a>   
+      
+    <nav>
+        <div class="title">
+            <h1>l-system</h1>
+            <h3>sottotitolo</h3>
+            <div class ="menu">
+                <a href="origini.html">origini</a>
+                <a href="struttura.html">struttura</a>
+                <a href="botanica.html">botanica</a> 
+                <a href="esempio.html">esempio</a> 
+            </div>
+        </div>
+    </nav>
+
+    <div class="txt">
+        <p> 
+            <h2>Composizione</h2>
+            Un L-system è essenzialmente un insieme di regole che descrivono come trasformare ricorsivamente, una stringa di simboli. <br>
+            Una stringa, in questo contesto, è una serie di simboli, come “𝑎” o “𝑎𝑏𝑎𝑏𝑎𝑎𝑏𝑎𝑎𝑎𝑎”, e può essere considerata come una parola composta da caratteri. <br>
+            Ogni regola, nota come produzione, descrive la trasformazione di un simbolo in un altro simbolo, una serie di simboli o nessun simbolo affatto. <br>
+            Ad ogni iterazione, le produzioni vengono applicate contemporaneamente a ciascun carattere, risultando in una nuova serie di simboli.<br>
+            <br>
+            <h2>Elementi</h2>
+            Un L-system è composto da quattro elementi: <b>variabili</b>, <b>costanti</b>, <b>assioma</b> e <b>regole</b>.<br>
+
+            Variabili: sono simboli che possono essere sostituiti con altre stringhe di simboli. <br>
+            Costanti: simboli che non possono essere sostituiti.<br>
+            Assioma: la stringa iniziale da cui inizia la derivazione – il punto di partenza. <br>
+            Regole: le regole che descrivono come le variabili vengono trasformate durante ogni iterazione.<br>
+            <br>
+            Ad esempio se volessimo creare un L-system dovremmo procedere in questo modo: <br>
+            <br>
+            Variabili: a, b <br>
+            Constanti: nessuna <br>
+            Assioma: a <br>
+            Regole: a → ab <br>
+            b → a<br>
+            <br>
+            Ad esempio, partendo dall'assioma “a” e applicando le regole, otteniamo:<br>
+            <br>
+            Iterazione 0: a (la stringa iniziale).<br>
+            <img src="./assets/img/a.png"><br>
+            Iterazione 1: Applichiamo le regole, sostituendo a con ab.<br>
+            <img src="./assets/img/ab.png"><br>
+            Iterazione 2: Applichiamo nuovamente le regole, sostituendo a con ab e b con a.<br>
+            <img src="./assets/img/aba.png"><br>
+            Iterazione 3: Continuando a sostituire le variabili secondo le regole, otteniamo: abaab.<br>
+            <img src="./assets/img/abaab.png"><br>
+            Iterazione 4: Ancora una volta, sostituendo le variabili, otteniamo: abaababa.<br>
+            <img src="./assets/img/abaaba.png"><br>
+
+            <!-- sostituire con gif!!! -->
+            </div>
+
+
+  
+</body>
+</html>

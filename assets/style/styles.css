@@ -1,0 +1,138 @@
+
+
+body{
+    background-color:whitesmoke;
+    font-family: 'AkzidenzGrotesk', sans-serif;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.info{
+    position: fixed;
+    font-size: 0.75vw;
+}
+
+.back, .fonti{
+    position: fixed;
+    margin:1%;
+    font-size: 0.75vw;
+    font-style: normal;
+    left: 0;
+}
+
+.fonti{
+    position: fixed;
+    margin:1%;
+    font-size: 0.75vw;
+    font-style: normal;
+    right: 0;
+}
+
+.menu{
+    padding-bottom : 1%;
+    padding-top : 1%;
+    font-size: 2vw;
+}
+
+
+.back:hover{
+    text-decoration-line: none;
+}
+
+nav{
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left: 0;
+
+}
+h1{
+    width: 60%;
+    font-size: 5vw;
+    color: black;
+    margin: 1%;
+}
+
+.txt{
+    position: absolute;
+    width: 40%;
+    height: 90%;
+    right: 0;
+    bottom: 0;
+    margin: 1%;
+    color: black;
+    font-weight: 300;
+    font-size: 1.5em;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+a{
+    font-size: 1em;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-inline-start: 1%;
+    margin-inline: 2%;
+}
+
+  a:hover {
+    text-decoration: underline;
+    
+  }
+
+  a:active {
+    color: rgb(43, 43, 44);
+    text-decoration: underline;
+  }
+
+.structure{
+    float: left;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+.coral-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coral-left,
+.coral-right {
+    width: 48%; 
+}
+
+.corals {
+    max-width: 100%; 
+}
+
+.figcaption {
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 10px; 
+}
+iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 78.26%; 
+    overflow: hidden;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes fadeInAnimation{
+      0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}

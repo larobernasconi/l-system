@@ -14,8 +14,10 @@
       
     <nav>
         <div class="title">
-            <h1>l-system</h1>
-            <h3>sottotitolo</h3>
+            <div class="title">
+                <h1>Sistemi di Lindenmayer</h1>
+                <h2>Algoritmi botanici</h2>
+            </div>
             <div class ="menu">
                 <a href="origini.html">origini</a>
                 <a href="struttura.html">struttura</a>
@@ -26,28 +28,27 @@
     </nav>
 
     <div class="txt">
-        <p> 
-            <h2>Composizione</h2>
-            Un L-system è essenzialmente un insieme di regole che descrivono come trasformare ricorsivamente, una stringa di simboli. <br>
-            Una stringa, in questo contesto, è una serie di simboli, come “𝑎” o “𝑎𝑏𝑎𝑏𝑎𝑎𝑏𝑎𝑎𝑎𝑎”, e può essere considerata come una parola composta da caratteri. <br>
-            Ogni regola, nota come produzione, descrive la trasformazione di un simbolo in un altro simbolo, una serie di simboli o nessun simbolo affatto. <br>
+        <p>  <h2>Struttura</h2>
+            <h4>Composizione</h4><br>
+
+            Un L-system è essenzialmente un insieme di regole che descrivono come trasformare ricorsivamente, una stringa di simboli.
+            Una stringa, in questo contesto, è una serie di simboli, come “𝑎” o “𝑎𝑏𝑎𝑏𝑎𝑎𝑏𝑎𝑎𝑎𝑎”, e può essere considerata come una parola composta da caratteri.
+            Ogni regola, nota come produzione, descrive la trasformazione di un simbolo in un altro simbolo, una serie di simboli o nessun simbolo affatto.
             Ad ogni iterazione, le produzioni vengono applicate contemporaneamente a ciascun carattere, risultando in una nuova serie di simboli.<br>
             <br>
-            <h2>Elementi</h2>
-            Un L-system è composto da quattro elementi: <b>variabili</b>, <b>costanti</b>, <b>assioma</b> e <b>regole</b>.<br>
-
-            Variabili: sono simboli che possono essere sostituiti con altre stringhe di simboli. <br>
-            Costanti: simboli che non possono essere sostituiti.<br>
-            Assioma: la stringa iniziale da cui inizia la derivazione – il punto di partenza. <br>
-            Regole: le regole che descrivono come le variabili vengono trasformate durante ogni iterazione.<br>
+            <h4>Elementi</h4><br>
+            Un L-system è composto da quattro elementi:<br>
+            <b>Variabili:</b> sono simboli che possono essere sostituiti con altre stringhe di simboli. <br>
+            <b>Costanti:</b> simboli che non possono essere sostituiti.<br>
+            <b>Assioma:</b> la stringa iniziale da cui inizia la derivazione – il punto di partenza. <br>
+            <b>Regole:</b> le regole che descrivono come le variabili vengono trasformate durante ogni iterazione.<br>
             <br>
             Ad esempio se volessimo creare un L-system dovremmo procedere in questo modo: <br>
             <br>
             Variabili: a, b <br>
-            Constanti: nessuna <br>
+            Costanti: nessuna <br>
             Assioma: a <br>
-            Regole: a → ab <br>
-            b → a<br>
+            Regole: a → ab, b → a<br>
             <br>
             Ad esempio, partendo dall'assioma “a” e applicando le regole, otteniamo:<br>
             <br>

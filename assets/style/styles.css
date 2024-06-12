@@ -88,7 +88,10 @@ a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin-inline-start: 1%;
-    margin-inline: 2%;
+    margin-inline: 1%;
+}
+.corso{
+    font-size: 0.75vw;
 }
 
   a:hover {

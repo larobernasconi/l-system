@@ -1,4 +1,6 @@
 # Sistemi di Lindenmayer (L-System)
+[versione live](https://larobernasconi.github.io/l-system/)
+
 **Autore: Lara Bernasconi**  
 SUPSI 2023-234  
 Corso d’interaction design, CV427.01  

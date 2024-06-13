@@ -92,6 +92,8 @@ a{
 }
 .corso{
     font-size: 0.75vw;
+    color: grey;
+    text-decoration: none;
 }
 
   a:hover {

@@ -55,4 +55,5 @@ All'interno del ciclo, vengono eseguite le seguenti operazioni in base al caratt
 
 
 ## Target e contesto d’uso
-Il progetto sui Sistemi di Lindenmayer è rivolto a studenti interessati a esplorare e comprendere i principi degli L-System. Il contesto d'uso principale è un ambiente educativo o di ricerca, dove gli utenti possono interagire con il progetto per approfondire la loro conoscenza degli algoritmi botanici e delle strutture frattali.
+
+Il progetto sui Sistemi di Lindenmayer è rivolto a studenti, ricercatori o in generale individui interessati a esplorare e comprendere i principi degli L-System e le loro applicazioni. Il contesto d'uso principale è un ambiente educativo o di ricerca, dove gli utenti possono interagire con il progetto per approfondire la loro conoscenza degli algoritmi botanici e delle strutture frattali.
